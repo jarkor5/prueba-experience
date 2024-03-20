@@ -1,0 +1,35 @@
+*{
+  font-family: 'Inter', sans-serif;
+}
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+  height: 580px;
+  width: 1220px;
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./assets/InterDisplay-Light.woff2') format('truetype');
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (max-width: 480px){
+  .app{
+    display: flex;
+    justify-content: flex-start !important;
+    align-items: flex-start !important; 
+    width: 480px;
+    height: 985px;
+    overflow-x: hidden;
+  }
+}

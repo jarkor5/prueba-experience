@@ -1,0 +1,222 @@
+.form{
+    width: 28%;
+    height: 80vh;
+display: flex;
+flex-direction: column;
+margin-top: 50px;
+align-items: center;
+justify-content: center;
+
+}
+
+.form-group{
+    display: flex;
+    margin-top: 15px;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 90%;
+    margin-left: 13px;
+}
+
+input{
+    width: 100%;
+    border-radius: 5px;
+    height: 30px;
+    margin-top: 5px;
+    border: 1px solid rgb(158, 154, 154)
+}
+.send-button{
+    width: 95%;
+    border-radius: 5px;
+    border: none;
+    height: 35px;
+    margin-left: -4px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+}
+
+.error {
+    color: white;
+    background-color: red;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  .success {
+    color: white;
+    background-color: green;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+
+  .validation-span{
+    display: flex;
+    flex-direction: column;
+    border: 2px soilid;
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 57px;
+  }
+
+  .login{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    width: 70%;
+    align-items: center;
+  }
+b{
+  margin-right: 18px;
+}
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  .eye-icon {
+   background-color: white;
+   border: none;
+   margin-left: -50px;
+   margin-top: 5px;
+   
+  }
+  
+  .form-group-password{
+    display: flex;
+    margin-top: 15px;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 13px;
+}
+
+.password-input{
+    width: 310px
+}
+
+.validation-span-two{
+  padding: 2px;
+  display: flex;
+  width: 17vw;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+#eight-ch{
+  margin-left: -20px;
+  margin-bottom: -5px;
+}
+.validation-span-two-field{
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.validation-icon {
+    margin-left: -5px;
+    margin-top: 5px;
+  }
+
+  @media (max-width: 600px) {
+    
+    *{
+      margin: 0;
+      padding: 0;
+      object-fit: contain;
+    }
+    
+    .password-input{
+        width: 310px
+    }
+    .eye-icon {
+        background-color: white;
+        border: none;
+        margin-left: -50px;
+        margin-top: 5px;
+        
+       }
+
+
+    .form{
+        width: 480px;
+        height: auto;
+        display: flex;
+        width: 380px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around; 
+        padding: 20px; 
+    }
+
+    input, .send-button {
+        width: 100%; 
+    }
+    .send-button{
+      margin-bottom: 15px;
+    }
+
+    .form-group, .form-group-password {
+        width: 91%;
+    }
+
+    .validation-span{
+        margin-left: -25px;
+        height: 10vh;
+        width: 20vw;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        display: flex;
+
+    .validation-span-two{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+      width: 45vw;
+    }
+
+    #eight-ch{
+      margin-left: 9px;
+      margin-bottom: -5px;
+      width: 35vw;
+    }
+
+    h1{
+        width: 70%;
+      
+    }
+
+    .validation-span {
+        align-items: flex-start; 
+    }
+
+    .validation-span-two {
+        font-size: 14px; 
+    }
+    .title-container{
+    
+      display: flex;
+    margin-left: -55px;
+    }
+
+    .login{
+        margin-left: 55px;
+
+        width: 50%;
+        flex-direction: column;
+    }
+   
+}
+
+}

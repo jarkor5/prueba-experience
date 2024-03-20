@@ -1,0 +1,11 @@
+.carousel-image{
+    margin-top: 10px;
+height: 100%;
+margin-right: -60px;
+}
+
+@media (max-width: 600px){
+    .carousel-image{
+        display: none;
+    }
+}
